@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="./public/expense%20landing.png"/>
+
+# Expense Tracker - Next js
+
+This expense tracker website is exclusively developed using Next.js, offering a robust and performant solution for effective expense management. With its server-side rendering capabilities, Next.js ensures swift loading times, contributing to an enhanced user experience.
+
+## Table of Contents
+
+- [Expense Tracker - Next js](#expense-tracker---next-js)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Contributing](#contributing)
 
 ## Getting Started
 
-First, run the development server:
+To get a copy of this project up and running on your local machine, follow the installation instructions provided below.
+
+## Prerequisites
+
+Before proceeding with the installation, make sure you have the following prerequisites:
+
+- Node.js (v14.x.x or higher)
+- npm (v6.x.x or higher) or yarn (v1.x.x or higher)
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/Sahad-09/Expense-Track.git
+cd gym-landing-page
+```
+
+2. Install the project dependencies:
+
+Using npm:
+
+```bash
+npm install
+```
+
+Or using yarn:
+
+```bash
+yarn install
+```
+
+## Usage
+
+To start the development server, run the following command:
+
+Using npm:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Or using yarn:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The application will now be accessible at `http://localhost:3000/` in your web browser.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- Tracking Spending Habits: Expense trackers provide a clear overview of where money is being spent, promoting awareness of spending habits.
+- Interactive components and animations to enhance user engagement.
+- Historical data can be analyzed to forecast future expenses, aiding in long-term financial planning.
+- Historical data can be analyzed to identify trends and patterns in spending, enabling users to make informed financial decisions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next.js - React-based web framework that enables functionality such as server-side rendering, automatic code splitting, and simplified routing, making it easier to build scalable and performant web applications.
+- TypeScript - Superset of JavaScript that adds static typing to the language.
+- HTML5 - Markup language for structuring web pages.
+- TailwindCSS - CSS framework for designing web pages.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We welcome contributions from the community to improve this project further. To contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- ## Demo
+
+[View Demo](https://gym-nex.vercel.app/) -->
