@@ -1,4 +1,4 @@
-<img src="./public/expense%20landing.png"/>
+<p align="center"><a href="#"><img width="auto" margin-left="50%" height="400px" src="https://pbs.twimg.com/media/F-5JZDoWUAA0snf?format=png&name=large" height="175px"/></a></p>
 
 # Expense Tracker - Next js
 
